@@ -504,6 +504,8 @@ function App() {
             <div>
               <h1 className="menu-logo">SUDOKU</h1>
               <p className="menu-tagline">Challenge your mind</p>
+              <p className="menu-tagline2">Develpoed By Roopesh</p>
+
             </div>
 
             {/* Show player name if exists */}

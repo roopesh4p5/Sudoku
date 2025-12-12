@@ -221,7 +221,10 @@ input::placeholder {
 .menu-tagline {
   color: var(--text-muted);
   font-size: 0.875rem;
-  margin-bottom: 1.5rem;
+}
+.menu-tagline2 {
+  color: var(--text-muted);
+  font-size: 0.9rem;
 }
 
 /* Player Name Display */
