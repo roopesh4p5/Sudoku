@@ -1,0 +1,12 @@
+{
+    "name": "sudoku-server",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "wsServer.js",
+    "scripts": {
+        "start": "node wsServer.js"
+    },
+    "dependencies": {
+        "ws": "^8.14.2"
+    }
+}
