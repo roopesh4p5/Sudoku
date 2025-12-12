@@ -1,0 +1,14 @@
+# Render Deploy Configuration
+# Documentation: https://docs.render.com/infrastructure-as-code
+
+services:
+  - type: web
+    name: sudoku-server
+    runtime: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+    autoDeploy: true
